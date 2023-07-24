@@ -2,6 +2,8 @@
 
 Simplico is a minimalist Hugo theme designed with simplicity, speed, and flexibility in mind. It aims to provide a clean and straightforward design that puts the content front and center while offering seamless support for internationalization (i18n) to reach a global audience.
 
+For demo: [Max's Blog](https://maxieluan.xyz)
+
 ## Key Features
 * **Ultra-Lightweight**: Simplico is built to be incredibly small, ensuring minimal resource usage and lightning-fast loading times. Say goodbye to unnecessary bloat!
 
