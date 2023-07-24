@@ -1,0 +1,104 @@
+baseURL: "http://maxieluan.xyz/"
+languageCode: en-us
+theme: theme
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: "Maxie's Place"
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 3
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 4
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 5
+        - identifier: contact
+          name: Contact
+          url: /contact/
+          weight: 6
+    welcome_message: "Meet Max"
+    he_is: 
+      - "Design Aficionado"
+      - "Code Wrangler"
+      - "Data Explorer"
+      - "Cinema Lover"
+      - "Bilingual Speaker (English & Cantonese)"
+      - "Tech Geek"
+      - "Curious Mind"
+      - "Mathematics and Finance Enthusiast"
+      - "Polylgot Programmer"
+    
+  zh:
+    languageName: Chinese
+    weight: 2
+    title: "麦克嘻博客"
+    menu:
+      main:
+        - identifier: home
+          name: 主页
+          url: /zh/
+          weight: 1
+        - identifier: posts
+          name: 文章
+          url: /zh/posts/
+          weight: 2
+        - identifier: tags
+          name: 标签
+          url: /zh/tags/
+          weight: 3
+        - identifier: categories
+          name: 分类
+          url: /zh/categories/
+          weight: 4
+        - identifier: projects
+          name: 项目
+          url: /zh/projects/
+          weight: 5
+        - identifier: contact
+          name: 联系
+          url: /zh/contact/
+          weight: 6
+    welcome_message: "见见麦克嘻"
+    he_is: 
+      - "设计外行"
+      - "编码狂人"
+      - "数据探索"
+      - "热爱电影"
+      - "双语 (英语 & 粤语)"
+      - "科技迷"
+      - "好奇心旺盛"
+      - "数学和金融业余爱好者"
+      - "多技术栈程序员"
+markup:
+  tableOfContents:
+    endLevel: 6
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
+Params:
+  pagination:
+    post: 10
+    taxonomy: 2
+    term: 2
+  number_of_featured: 6
+  email: "max_luan@foxmail.com" 
+ 
