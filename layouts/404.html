@@ -1,5 +1,8 @@
-{{ define "main" }}
-<h2>
-    {{ i18n "message_not_found" }}
-</h2>
-{{ end }}
+{{- define "main" -}}
+
+<main class='main w-full mx-auto md:w-3/4 lg:w-1/2 {{if eq .Site.Language.Lang "zh"}}chinese-text{{end}} h-screen-minus-header px-4 md:px-0'>
+    <h2>
+        {{ i18n "message_not_found" }}
+    </h2>
+</main>
+{{- end -}}
