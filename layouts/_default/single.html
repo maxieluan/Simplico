@@ -6,6 +6,9 @@
     <meta name="canonical" content="{{ .Permalink }}">
     {{ partial "partials/structured-data.html" .}}
     <body class="show-scrollbar">
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
         {{- partial "header.html" . -}}
         <div class="single flex flex-col lg:flex-row lg:w-full md:w-3/4 mx-auto h-screen-minus-header">
             {{ $toc := (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>")}}
