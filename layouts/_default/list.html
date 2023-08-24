@@ -18,14 +18,16 @@
             <h1>
                 {{ i18n "featured" }}
             </h1>
-            {{ range first .Site.Params.number_of_featured (sort $featured "Params.featured.weight" "desc")}}
             
             <ul>
+            {{ range first .Site.Params.number_of_featured (sort $featured "Params.featured.weight" "desc")}}
+            
                 <li>
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
-            </ul>
             {{ end }}
+            
+            </ul>
         </div>
         {{ end }}
 
