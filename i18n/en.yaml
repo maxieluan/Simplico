@@ -3,6 +3,7 @@ welcome_message: "Welcome to my blog"
 
 posts: "Posts"
 powered_by: "Powered by <a href=\"{{.Link}}\">{{.Text}}</a>"
+themed_by: "Themed by <a href=\"Simplico\">Simplico</a>"
 
 prev: "Prev"
 next: "Next"

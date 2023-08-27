@@ -3,6 +3,7 @@ welcome_message: "欢迎来到我的博客"
 
 posts: "文章"
 powered_by: "由 <a href=\"{{.Link}}\">{{.Text}}</a> 驱动"
+themed_by: "由<a href=\"Simplico\">Simplico</a>提供主题"
 
 prev: "上一页"
 next: "下一页"

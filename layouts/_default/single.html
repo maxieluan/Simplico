@@ -16,7 +16,7 @@
             <div class="progress-bar"></div>
         </div>
         {{- partial "header.html" . -}}
-        <div class="single flex flex-col lg:flex-row lg:w-full md:w-3/4 mx-auto h-screen-minus-header">
+        <div class="single flex flex-col lg:flex-row lg:w-full md:w-3/4 mx-auto h-screen-minus-header-single">
             {{ $toc := (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>")}}
             {{ if $toc }}
             <aside id="toc" class="w-full lg:w-1/4">
